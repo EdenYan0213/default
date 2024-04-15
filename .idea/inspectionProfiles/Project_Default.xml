@@ -1,0 +1,134 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="151" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="HttpUrlsUsage" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredUrls">
+        <list>
+          <option value="http://localhost" />
+          <option value="http://127.0.0.1" />
+          <option value="http://0.0.0.0" />
+          <option value="http://www.w3.org/" />
+          <option value="http://json-schema.org/draft" />
+          <option value="http://java.sun.com/" />
+          <option value="http://xmlns.jcp.org/" />
+          <option value="http://javafx.com/javafx/" />
+          <option value="http://javafx.com/fxml" />
+          <option value="http://maven.apache.org/xsd/" />
+          <option value="http://maven.apache.org/POM/" />
+          <option value="http://www.springframework.org/schema/" />
+          <option value="http://www.springframework.org/tags" />
+          <option value="http://www.springframework.org/security/tags" />
+          <option value="http://www.thymeleaf.org" />
+          <option value="http://www.jboss.org/j2ee/schema/" />
+          <option value="http://www.jboss.com/xml/ns/" />
+          <option value="http://www.ibm.com/webservices/xsd" />
+          <option value="http://activemq.apache.org/schema/" />
+          <option value="http://schema.cloudfoundry.org/spring/" />
+          <option value="http://schemas.xmlsoap.org/" />
+          <option value="http://cxf.apache.org/schemas/" />
+          <option value="http://primefaces.org/ui" />
+          <option value="http://tiles.apache.org/" />
+          <option value="http://opensource.org" />
+          <option value="http://%s" />
+          <option value="http://bk-iam.apigw.o.woa.com" />
+          <option value="http://api.sgw.woa.com" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="JsonSchemaCompliance" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="30">
+            <item index="0" class="java.lang.String" itemvalue="eventlet" />
+            <item index="1" class="java.lang.String" itemvalue="bk-plugin-framework" />
+            <item index="2" class="java.lang.String" itemvalue="django" />
+            <item index="3" class="java.lang.String" itemvalue="requests" />
+            <item index="4" class="java.lang.String" itemvalue="pygments" />
+            <item index="5" class="java.lang.String" itemvalue="rest_framework" />
+            <item index="6" class="java.lang.String" itemvalue="django-celery-beat" />
+            <item index="7" class="java.lang.String" itemvalue="blueking-component-ieod" />
+            <item index="8" class="java.lang.String" itemvalue="celery" />
+            <item index="9" class="java.lang.String" itemvalue="greenlet" />
+            <item index="10" class="java.lang.String" itemvalue="django-celery-results" />
+            <item index="11" class="java.lang.String" itemvalue="blueapps" />
+            <item index="12" class="java.lang.String" itemvalue="Django" />
+            <item index="13" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="14" class="java.lang.String" itemvalue="django-cors-headers" />
+            <item index="15" class="java.lang.String" itemvalue="redis" />
+            <item index="16" class="java.lang.String" itemvalue="raven" />
+            <item index="17" class="java.lang.String" itemvalue="ddtrace" />
+            <item index="18" class="java.lang.String" itemvalue="blueking.component.ieod" />
+            <item index="19" class="java.lang.String" itemvalue="pyCryptodome" />
+            <item index="20" class="java.lang.String" itemvalue="cryptography" />
+            <item index="21" class="java.lang.String" itemvalue="python" />
+            <item index="22" class="java.lang.String" itemvalue="pytest" />
+            <item index="23" class="java.lang.String" itemvalue="factory" />
+            <item index="24" class="java.lang.String" itemvalue="bkapi-component-open" />
+            <item index="25" class="java.lang.String" itemvalue="bk-iam" />
+            <item index="26" class="java.lang.String" itemvalue="ipython" />
+            <item index="27" class="java.lang.String" itemvalue="bk_resource" />
+            <item index="28" class="java.lang.String" itemvalue="PyMySQL" />
+            <item index="29" class="java.lang.String" itemvalue="dataclasses" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E231" />
+          <option value="E125" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N812" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="format" />
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="snippets.models.Snippet.objects" />
+          <option value="base_url" />
+          <option value="app_id" />
+          <option value="app_key" />
+          <option value="str.*" />
+          <option value="award_declaration.models.Organization.objects" />
+          <option value="award_declaration.models.Award.objects" />
+          <option value="drfblog.blog.models.Article.objects" />
+          <option value="blog.models.Article.objects" />
+          <option value="blog.models.Notice.objects" />
+          <option value="blog.models.Valine.objects" />
+          <option value="blog.models.Category.objects" />
+          <option value="blog.models.Tag.objects" />
+          <option value="blog.models.About.objects" />
+          <option value="blog.models.Skill.objects" />
+          <option value="blog.models.Site.objects" />
+          <option value="app.serializers.rest_framework_simplejwt" />
+          <option value="core.mixins.ListModelInjectionAuthActionsMixin.*" />
+          <option value="object.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
