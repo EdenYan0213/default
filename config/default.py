@@ -31,12 +31,7 @@ from blueapps.conf.log import get_logging_config_dict
 #     'blueapps.account',
 # )
 
-# 请在这里加入你的自定义 APP
-INSTALLED_APPS += (  # noqa
-    "corsheaders",
-    "home_application",
-    "mako_application",
-)
+
 
 # 这里是默认的中间件，大部分情况下，不需要改动
 # 如果你已经了解每个默认 MIDDLEWARE 的作用，确实需要去掉某些 MIDDLEWARE，或者改动先后顺序，请去掉下面的注释，然后修改
@@ -63,14 +58,21 @@ INSTALLED_APPS += (  # noqa
 #     'django.middleware.locale.LocaleMiddleware',
 # )
 
+# 请在这里加入你的自定义 APP
+INSTALLED_APPS += (  # noqa
+    "corsheaders",          # 添加这一行，解决CORS跨域资源共享问题
+    "home_application",
+    "mako_application",
+)
+
 # 跨域中间件
 MIDDLEWARE = ("corsheaders.middleware.CorsMiddleware",) + MIDDLEWARE
 # 自定义中间件
 MIDDLEWARE += ()  # noqa
 
-# TODO：在文档中需要处理CORS与CSRF问题，待跟进README
+# # TODO：在文档中需要处理CORS与CSRF问题，待跟进README
 CORS_ALLOW_ALL_ORIGINS = True
-# 在 response 添加 Access-Control-Allow-Credentials, 即允许跨域使用 cookies
+# # 在 response 添加 Access-Control-Allow-Credentials, 即允许跨域使用 cookies
 CORS_ALLOW_CREDENTIALS = True
 
 # 默认数据库AUTO字段类型
