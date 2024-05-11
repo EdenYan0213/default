@@ -51,13 +51,14 @@ DEBUG = True
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": "lesson11",  # noqa
+        "NAME": "mysecond",  # noqa
         "USER": "root",
-        "PASSWORD": "huan0912",
+        "PASSWORD": "root",
         "HOST": "localhost",
         "PORT": "3306",
     },
 }
+
 
 # 前后端开发模式下支持跨域配置
 if FRONTEND_BACKEND_SEPARATION:
